@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+	<base href="/" >
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div ng-include="'partials/header.html'"></div>
+	<div ui-view></div>
+	<div ng-include="'partials/footer.html'"></div>
+</body>
+</html>
